@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!-- 
+	css는 html과는 완전히 독립된 언어이다.
+	html에서는 정보에 집중하기 위해서 스타일관련 태그가 사라지고 css가 생기게 되었다 css는 디자인에 집중된 언어
+	html과 css가 공존하는 방법 : <style>이라는 태그
+	속성과 속성을 구분하는 구분자는 ; 이다. 그다음 공백은 있어도 되고 없어도 된다.
+-->
+<html>
+	<head>
+		<meta charset="utf-8" />
+	</head>
+	
+	<style>
+		h1, h2 {
+			color:red;
+			font-size:10px
+		}
+		h2 {
+			text-decoration:underline;
+		}
+		header h1 {
+			border:1px solid red;
+		}
+	</style>
+	
+	<body>
+		<header>
+			<h1>
+				CSS
+			</h1>
+		</header>
+		<h2>
+			JavaScript
+		</h2>
+		<h3>
+			HTML
+		</h3>
+		<h1>
+			PHP
+		</h1>
+	</body>
+</html>
