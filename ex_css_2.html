@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--
+	박스모델 : css를 이용해서 각각의 html 태그들의 위치, 부피, 여백 등을 지정하는 것
+	id : id값이 selected 인 값을 선택해서 효과를 줄 수 있다. 
+		이 방법은 id앞에 #을 붙여서 사용 나중에 나오겠지만 중복된 id값을 의미하는 class는 class이름 앞에 .을 붙여서 사용한다.
+	padding : 내부여백
+	margin : 바깥여백
+-->
+<html>
+<head>
+     <meta charset="utf-8">
+   <style>
+     #selected {
+       border:red 1px solid;
+       padding:30px;
+       margin:50px;
+     }
+     #extra {
+       border:blue 1px solid;
+     }
+   </style>
+</head>
+<body>
+  <ul>
+    <li>html</li>
+    <li id="selected">css</li>
+    <li id="extra">javascript</li>
+  </ul>
+</body>
+</html>
